@@ -1,10 +1,51 @@
-//const getPokemonById = require('./js-foundation/06-promises');
-const { getPokemonById } = require('./js-foundation/06-promises');
+const {getAge, getUUID} = require('./plugins')
+const{ buildLogger} = require('./plugins');
 
-getPokemonById(4)
+const logger = buildLogger('app.js');
+
+logger.log('Hola Mundo');
+logger.error('Esto es un error');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//const getPokemonById = require('./js-foundation/06-promises');
+//const { getPokemonById } = require('./js-foundation/06-promises');
+
+/*getPokemonById(4)
     .then((pokemon) => console.log({ pokemon }))
     .catch((err) => console.error(err))
-    .finally(() => console.log('Finalmente'));
+    .finally(() => console.log('Finalmente'));8?
+
+
+
 
 
 
